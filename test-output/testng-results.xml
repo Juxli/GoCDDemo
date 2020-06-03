@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-03T16:33:17 CST" name="Default Suite" finished-at="2020-06-03T16:33:25 CST" duration-ms="8095">
+    <groups>
+    </groups>
+    <test started-at="2020-06-03T16:33:17 CST" name="demo project" finished-at="2020-06-03T16:33:25 CST" duration-ms="8095">
+      <class name="tests.Test1">
+        <test-method is-config="true" signature="setupEnv(java.lang.String, java.lang.String)[pri:0, instance:tests.Test1@36bc55de]" started-at="2020-06-03T16:33:17 CST" name="setupEnv" finished-at="2020-06-03T16:33:20 CST" duration-ms="3308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnv -->
+        <test-method signature="test1()[pri:0, instance:tests.Test1@36bc55de]" started-at="2020-06-03T16:33:20 CST" name="test1" finished-at="2020-06-03T16:33:23 CST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:tests.Test1@36bc55de]" started-at="2020-06-03T16:33:23 CST" name="test2" finished-at="2020-06-03T16:33:25 CST" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.Test1@36bc55de]" started-at="2020-06-03T16:33:25 CST" name="quitBrowser" finished-at="2020-06-03T16:33:25 CST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- tests.Test1 -->
+    </test> <!-- demo project -->
+  </suite> <!-- Default Suite -->
+</testng-results>
