@@ -1,2 +1,2 @@
-# GoCDDemo
+# HelloGoCD
 demo for GoCD
